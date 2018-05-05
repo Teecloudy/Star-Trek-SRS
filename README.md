@@ -96,7 +96,8 @@ However if the input format isn’t correct the framework is designed to bring a
 Response Time
 ---
 To find out the response time we need to test the application. In order to test the application, we add a second module (flaskr_tests.py) and create a unittest skeleton. The code in the setUp() method creates a new test client and initializes a new database. This function is called before each individual test function is run. To delete the database after the test, we close the file and remove it from the filesystem in the tearDown() method. Additionally during setup the TESTING config flag is activated. What it does is disable the error catching during request handling so that you get better error reports when performing test requests against the application. This test client will give us a simple interface to the application. We can trigger test requests to the application, and the client will also keep track of cookies for us. This application because it doesn’t involve too much URL therefore the response time is less than 5 seconds.  
-Sample Response;
+Sample Response;  
+![capture](https://user-images.githubusercontent.com/37251906/39665640-299cfe2c-50ca-11e8-9bbe-2b8a1cc9c129.PNG)
 
 Complications
 ---
