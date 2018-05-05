@@ -87,7 +87,7 @@ AT1G01110	2.709783491	1.425313279		-0.93
 
 
 ### Plot for LOGFC ON GENE EXPRESSION
-![wechat image_20180503141936](https://user-images.githubusercontent.com/37251906/39665574-401174c2-50c9-11e8-8241-d9bd0fbae666.jpg)
+![wechat image_20180503141936](https://user-images.githubusercontent.com/37251906/39665678-78648944-50ca-11e8-8832-cf225c3e5b0e.jpg)
 
 However if the input format isn’t correct the framework is designed to bring an error message that will inform the user that the input placed is invalid and thus also include a button that will allow the user to go back and either fix the particular error or rewrite the input all together. Diagram below show a sample interface.  
 
@@ -109,10 +109,10 @@ glmTreat with positive lfc gives larger p-values than would be obtained with lfc
 
 Tentative timeline
 ---
-User Requirements Document: 3 April 2018
-Requirements Q&A and elicitation:  10 April 2018
-Software Requirements Specification: 17 April 2018
-Acceptance test: 1 June 2018
-Deployment date: 15 June 2018
+User Requirements Document: 3 April 2018  
+Requirements Q&A and elicitation:  10 April 2018  
+Software Requirements Specification: 17 April 2018  
+Acceptance test: 1 June 2018  
+Deployment date: 15 June 2018  
 
 
