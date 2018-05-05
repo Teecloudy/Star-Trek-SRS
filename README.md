@@ -89,7 +89,9 @@ AT1G01110	2.709783491	1.425313279		-0.93
 ### Plot for LOGFC ON GENE EXPRESSION
 ![wechat image_20180503141936](https://user-images.githubusercontent.com/37251906/39665574-401174c2-50c9-11e8-8241-d9bd0fbae666.jpg)
 
-However the system is designed to bring an error message that will inform the user that the input placed is invalid and thus also include a button that will allow the user to go back and either fix the particular error or rewrite the input all together.  
+However if the input format isn’t correct the framework is designed to bring an error message that will inform the user that the input placed is invalid and thus also include a button that will allow the user to go back and either fix the particular error or rewrite the input all together. Diagram below show a sample interface.  
+
+![wechat image_20180506010017](https://user-images.githubusercontent.com/37251906/39665595-9e1dc82c-50c9-11e8-936d-972d38add7b8.jpg)
 
 Response Time
 ---
