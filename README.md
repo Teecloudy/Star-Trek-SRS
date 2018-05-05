@@ -69,7 +69,7 @@ AT1G01110	2.709783491	1.425313279
 
 OUTPUT
 ---
-The web application displays a table and a scatter plot given a gene expression file. The table contains a list of differentially expressed genes with the following format. This output is only available if the input format is correct according to the designed requirements of the flask framework else it will bring an error. The Log_2[FC] is calculated by log2 of control sample divided by treatment sample. If Both the control and Treatment are Zero then the LOG FC is infinity.
+The web application displays a table and a scatter plot given a gene expression file if the input format is correct. The table contains a list of differentially expressed genes with the following format. This output is only available if the input format is correct according to the designed requirements of the flask framework else it will bring an error. The Log_2[FC] is calculated by log2 of treatment sample divided by control sample. In subsequent results, a positive log 2-fold-change (logFC) will indicate a gene up-regulated in lactating results of tests whereas a negative logFC will indicate a gene more highly expressed in the test. If Both the control and Treatment are Zero then the LOG FC is infinity. The output will show both the table and the plot as below:
 
 **gene_id	ControlSample	TREAT SAMPLE  	LOG_2[FC]**  
 AT1G01010	1.198558083	2.036161827		0.76  
@@ -85,6 +85,9 @@ AT1G01090	58.26034505	42.96301455		-0.44
 AT1G01100	1066.508249	1308.030358		0.29  
 AT1G01110	2.709783491	1.425313279		-0.93  
 
+
+### Plot for LOGFC ON GENE EXPRESSION
+![wechat image_20180503141936](https://user-images.githubusercontent.com/37251906/39665574-401174c2-50c9-11e8-8241-d9bd0fbae666.jpg)
 
 However the system is designed to bring an error message that will inform the user that the input placed is invalid and thus also include a button that will allow the user to go back and either fix the particular error or rewrite the input all together.  
 
